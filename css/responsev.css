@@ -1,0 +1,108 @@
+@media (max-width : 992px){
+/* * header */
+    header nav  {
+        display: none;
+    }
+    header .bar-icon {
+        display: block;
+    }
+/* - header */
+
+
+/* * Gold */
+    .Gold .container .head {
+    padding: 1rem;
+    }
+    .Gold .container .gold-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2.2rem;
+    }
+    .main6 .container .section-main6{
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+     
+    }
+    .Gold .container .gold-sec .text-gold h4{
+    font-size: 1.3rem;
+    }
+    .Gold .container .gold-sec .text-gold h5{
+        font-size: 1rem;
+       font-weight: 600;
+    }
+/* - Gold */
+
+
+
+/* * main opinion sec 5  */
+  
+    .opinion-main5 .container {
+        margin: 50px 0px;
+     }
+     .opinion-main5 .container .head {
+        text-align: center;
+        padding: 2rem  0;
+    }
+      .opinion-main5 .container .section-main5 .person1 {
+        display: none;
+      }
+      .opinion-main5 .container .section-main5 .person2 {
+        display: none;
+
+      }
+/* - main opinion sec 5  */
+
+
+
+/* * main6 */
+      .main6 .container .img-main6 {
+        flex-grow: 1;
+        width: 100%;
+      }
+/* - main6 */
+
+
+
+
+/* - maps  sec  */
+  .maps iframe{
+    width:100% ;
+    height: 20rem;
+}
+      form{
+        position: relative;
+    }
+    form input {
+        width: 65%;
+        border: #59C6BC solid 20px;
+        border-left: #59C6BC solid 80px ;
+        border-radius: 0.5rem;
+        padding:  0.5rem;
+        outline: none;
+        position: absolute;
+        right: 3rem;
+        top: 8rem;
+     }
+     form i {
+        position: absolute;
+        right: 61.5%;
+        top: 8.6rem;
+        font-size: 3rem;
+        color: #707070;
+        z-index: 999999;
+     }
+/* - maps  sec  */
+
+
+
+/* * footer */
+      footer .div-footer p {
+        padding: 20px;
+        width: 100%;
+      }
+
+/* - footer */
+
+}
